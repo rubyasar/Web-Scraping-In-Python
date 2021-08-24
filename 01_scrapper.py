@@ -9,9 +9,13 @@ from bs4 import BeautifulSoup
 import urllib.request 
 import re
 
-data=urllib.request.urlopen('https://analytics.usa.gov').read()
+#Change the below url as per your need
+url='https://analytics.usa.gov'
+
+data=urllib.request.urlopen(url).read()
 bs=BeautifulSoup(data,'lxml')
-print(bs.prettify())
+#to check out the entire source code of website use below command
+#print(bs.prettify())
 
 #Change the below path as per your need
 address="C:/Users/rubya/Desktop/Web Scraping/"
