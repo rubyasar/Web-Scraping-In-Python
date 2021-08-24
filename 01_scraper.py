@@ -13,6 +13,7 @@ data=urllib.request.urlopen('https://analytics.usa.gov').read()
 bs=BeautifulSoup(data,'lxml')
 print(bs.prettify())
 
+#Change the below path as per your need
 address="C:/Users/rubya/Desktop/Web Scraping/"
 
 """ Get All Web-Links """
