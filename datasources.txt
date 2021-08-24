@@ -1,0 +1,11 @@
+https://analytics.usa.gov/data/live/browsers.json
+https://analytics.usa.gov/data/live/ie.json
+https://analytics.usa.gov/data/live/os.json
+https://analytics.usa.gov/data/live/windows.json
+https://analytics.usa.gov/data/live/top-countries-realtime.json
+https://analytics.usa.gov/data/live/top-countries-realtime.json
+https://analytics.usa.gov/data/live/top-countries-realtime.json
+https://analytics.usa.gov/data/live/top-pages-realtime.json
+https://analytics.usa.gov/data/live/top-domains-7-days.json
+https://analytics.usa.gov/data/live/top-domains-30-days.json
+https://analytics.usa.gov/data/live/top-downloads-yesterday.json
