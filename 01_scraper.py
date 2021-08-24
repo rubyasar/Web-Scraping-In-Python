@@ -13,10 +13,9 @@ data=urllib.request.urlopen('https://analytics.usa.gov').read()
 bs=BeautifulSoup(data,'lxml')
 print(bs.prettify())
 
+address="C:/Users/rubya/Desktop/Web Scraping/"
 
 """ Get All Web-Links """
-
-address="C:/Users/rubya/Desktop/Web Scraping/"
 with open(address+'links.txt','wt') as file:
     for link in bs.find_all('a',attrs={'href':re.compile('^https')}):
         file.write(link.get('href')+'\n')                   
